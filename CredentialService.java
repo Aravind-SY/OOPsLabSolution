@@ -22,9 +22,10 @@ public class CredentialService {
 		emailId = firstName + lastName + "@" + department +".gl.com";
 		return emailId;
 	}
-	public void showCredntials(String emailId, char[] generatePassword) {
-		System.out.println("Email  --->" + emailId);
-		System.out.println("Password --->" + generatePassword);
+	public void showCredntials(String generateEmail, char[] generatePassword) {
+		System.out.println("Email  --->" + generateEmail);
+		System.out.println("Password --->");
+		System.out.println(generatePassword);
 	}
 }
 
